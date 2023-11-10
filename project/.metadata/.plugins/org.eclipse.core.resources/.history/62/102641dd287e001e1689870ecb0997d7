@@ -1,0 +1,19 @@
+package com.example;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.entity.Address;
+import com.example.entity.Student;
+import com.example.repositry.AddressRepo;
+import com.example.repositry.StudentRepo;
+
+@SpringBootApplication
+public class MappingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MappingApplication.class, args);
+	}
+
+}
